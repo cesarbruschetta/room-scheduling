@@ -1,0 +1,15 @@
+site_name: Billing Phonecalls
+site_url: https://billing-phonecalls.herokuapp.com/
+repo_url: https://github.com/cesarbruschetta/work-at-olist
+repo_name: 'GitHub'
+theme: readthedocs
+
+nav:
+- Home: 'index.md'
+- Install: 'setup.md'
+- API: 'api.md' 
+- Tests: 'tests.md'
+- About: 'about.md'
+
+use_directory_urls: false
+site_dir: doc_site

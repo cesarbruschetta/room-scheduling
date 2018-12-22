@@ -1,0 +1,47 @@
+[
+{
+    "model": "core.meetingroom",
+    "pk": 1,
+    "fields": {
+        "name": "Sala de reuni\u00e3o Principal",
+        "place": "5\u00ba andar",
+        "description": "Curabitur pellentesque faucibus arcu a varius. Quisque a tortor arcu. Vivamus semper nisl et ligula laoreet, et ultrices lectus scelerisque."
+    }
+},
+{
+    "model": "core.meetingroom",
+    "pk": 2,
+    "fields": {
+        "name": "Sala Reuni\u00e3o Londres",
+        "place": "Sala 41",
+        "description": "Sala  de reuni\u00e3o com capacidade de receber 6 pessoas"
+    }
+},
+{
+    "model": "core.meetingroom",
+    "pk": 3,
+    "fields": {
+        "name": "Sala Reuni\u00e3o Tokio",
+        "place": "Sala 47",
+        "description": "Sala de reuni\u00e3o com capacidade para 6 pessoas acompanhando projetor e outros equipamentos"
+    }
+},
+{
+    "model": "core.meetingroom",
+    "pk": 5,
+    "fields": {
+        "name": "Sala Reuni\u00e3o Brasil",
+        "place": "6 Andar",
+        "description": "Sala de reuni\u00e3o com capacidade para 15 pessoas,  com equipamentos e quadros para exposi\u00e7\u00e3o de ideias."
+    }
+},
+{
+    "model": "core.meetingroom",
+    "pk": 6,
+    "fields": {
+        "name": "Sala Reuni\u00e3o Chile",
+        "place": "sala 31",
+        "description": "Sala com capacidade para at\u00e9 4 pessoas, em geral deve ser usada para avalia\u00e7\u00e3o de desempenho."
+    }
+}
+]
