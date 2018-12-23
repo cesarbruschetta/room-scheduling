@@ -1,6 +1,6 @@
-site_name: Billing Phonecalls
-site_url: https://billing-phonecalls.herokuapp.com/
-repo_url: https://github.com/cesarbruschetta/work-at-olist
+site_name: Coding Test - Reserva de Salas de Reunião
+site_url: https://room-scheduling.herokuapp.com/
+repo_url: https://github.com/cesarbruschetta/room-scheduling
 repo_name: 'GitHub'
 theme: readthedocs
 

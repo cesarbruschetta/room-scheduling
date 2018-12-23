@@ -1,44 +1,44 @@
-# Install Local Environment
+# Instalar o Ambiente Local
 
-## Create virtualenvi
+## Criar o virtualenv
 
 ```bash
 $ virtualenv -p /usr/bin/python3.6 room_scheduling
 ```
 
-## Clone sourcer aplication
+## Clonar o codigo fonte da aplicação
 
 ```bash
 $ cd room_scheduling
-$ git clone git clone https://github.com/cesarbruschetta/
+$ git clone git clone https://github.com/cesarbruschetta/room-scheduling
 ```
 
-## Install dependences in python
+## Instalar as dependencias do python
 
 ```bash
 $ cd app
 $ ../bin/pip install -r requirements.txt 
 ```
 
-## Create database and root user of aplication
+## Criar o banco de dados e o usurio root da aplicação
 
 ```bash
 $ ../bin/python ./manage.py migrate
 $ ../bin/python ./manage.py createsuperuser
 ```
 
-## Load default data to database
+## Caregar dados padrão no banco de dados
 
 ```bash
 $ ../bin/python ./manage.py loaddata data_roons.json
 ```
 
-## Run Development Server
+## Executar o servidor de desenvolvimento
 
 ```bash
 $ ../bin/python ./manage.py runserver 
 ```
 
-## Access in you browser the URL
+## Acessar no seu navegador a URL
 
 [http://127.0.0.1:8000/](http://127.0.0.1:8000/)

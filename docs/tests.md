@@ -1,48 +1,59 @@
-# Test of aplication
+# Teste da aplicação
 
-## Run unittest
+## Executar unittest
 
 ```bash
 $ cd /path/to/env/room_scheduling/app
 $ python manage.py test -v 2
 ```
 
-## Run analyze code by pylint
+## Analizar o codigo pelo pylint
 
 ```bash
 $ cd /path/to/env/room_scheduling/app
 $ ../bin/pylint room_scheduling/*
 ```
 
-## Run analyze code by pylint
-
-```bash
-$ cd /path/to/env/room_scheduling/app
-$ ../bin/pylint room_scheduling/*
-```
-
-## Run analyze code by pep8
+## Analizar o codigo pelo pep8
 
 ```bash
 $ cd /path/to/env/room_scheduling/app
 $ ../bin/flake8 room_scheduling/*
 ```
 
-* To format code to pep8 rules
+* Formatar o codigo pelo padrão do pep8
 
 `$ ./bin/autopep8 --in-place --aggressive --aggressive -r room_scheduling/`
 
-## Run Coverage report
+## Executar o Coverage report
 
-After wheels the unit tests execute the command below
+Apos executar todos os teste unitarios execute o comando abaixo
 
 ```bash
 $ cd /path/to/env/room_scheduling/app
 $ ../bin/coverage html
 ```
 
-The command generate a folder called `htmlcov` and you can open the `index.html` in your browser to view the report
+O comando gerara uma pasta chamada `htmlcov` e ao abrila ira localizar e abir o arquivo `index.html` com seu navegado para ver o relatorio
 
 
-## Analyze by Coverage
+## Analize pelo Coverage
 
+|Module|statements|missing|excluded|coverage|
+|--- |--- |--- |--- |--- |
+|Total|188|63|0|66%|
+|Total|188|63|0|66%|
+|room_scheduling/__init__.py|0|0|0|100%|
+|room_scheduling/core/__init__.py|0|0|0|100%|
+|room_scheduling/core/admin.py|10|10|0|0%|
+|room_scheduling/core/apps.py|3|3|0|0%|
+|room_scheduling/core/migrations/0001_initial.py|6|0|0|100%|
+|room_scheduling/core/migrations/__init__.py|0|0|0|100%|
+|room_scheduling/core/models.py|25|22|0|12%|
+|room_scheduling/core/serializers.py|24|0|0|100%|
+|room_scheduling/core/tests.py|62|0|0|100%|
+|room_scheduling/core/urls.py|7|0|0|100%|
+|room_scheduling/core/views.py|19|0|0|100%|
+|room_scheduling/settings.py|24|24|0|0%|
+|room_scheduling/urls.py|4|0|0|100%|
+|room_scheduling/wsgi.py|4|4|0|0%|

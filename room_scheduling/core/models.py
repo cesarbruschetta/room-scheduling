@@ -1,6 +1,7 @@
-from django.db import models
+""" module to model of meeting and meeting_room """
 
-# Create your models here.
+from django.core.exceptions import ValidationError
+from django.db import models
 
 
 class MeetingRoom(models.Model):
@@ -31,6 +32,14 @@ class Meeting(models.Model):
     def __str__(self):
         return "%s - %s (%s-%s)" % (self.name, self.meeting_room,
                                     self.start, self.end)
+
+    def clean(self):
+        """ valide date_start larger end_date """
+
+        if self.end <= self.start:
+            raise ValidationError({
+                'end': ['Data de termino deve ser maior que a data de inicio'],
+            })
 
     class Meta:
         """ Meta """

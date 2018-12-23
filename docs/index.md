@@ -1,10 +1,10 @@
 # Reserva de Salas de Reunião
 
-Codigo fonte da aplicação [GitHub](https://github.com/cesarbruschetta/).
+Codigo fonte da aplicação [GitHub](https://github.com/cesarbruschetta/room-scheduling).
 
 ## Acesso
 
-Link para a [aplicação Demo](https://.herokuapp.com/)
+Link para a [aplicação Demo](https://room-scheduling.herokuapp.com/)
 
 
 ## O Problema
@@ -35,7 +35,7 @@ O sistema de agendamento precisa ter:
 
 ## Recomendações
 
-* Crie essa aplicação como se fosse uma aplicação real, que seria utilizada pelo Magazine Luiza
+* Crie essa aplicação como se fosse uma aplicação real, que seria utilizada pelo nosso Cliente
 * Escreva testes
 * Seguir principios SOLID
 * Utilize boas práticas de programação

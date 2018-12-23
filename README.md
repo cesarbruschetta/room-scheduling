@@ -28,7 +28,7 @@ O sistema de agendamento precisa ter:
 
 ## Recomendações
 
-* Crie essa aplicação como se fosse uma aplicação real, que seria utilizada pelo Magazine Luiza
+* Crie essa aplicação como se fosse uma aplicação real, que seria utilizada pelo nosso cliente
 * Escreva testes
 * Seguir principios SOLID
 * Utilize boas práticas de programação

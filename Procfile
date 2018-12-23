@@ -1,1 +1,1 @@
-web: gunicorn roo_scheduling.wsgi:application
+web: gunicorn room_scheduling.wsgi:application
