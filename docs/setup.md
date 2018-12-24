@@ -6,28 +6,28 @@
 $ virtualenv -p /usr/bin/python3.6 room_scheduling
 ```
 
-## Clonar o codigo fonte da aplicação
+## Clonar o código fonte da aplicação
 
 ```bash
 $ cd room_scheduling
-$ git clone git clone https://github.com/cesarbruschetta/room-scheduling
+$ git clone https://github.com/cesarbruschetta/room-scheduling
 ```
 
-## Instalar as dependencias do python
+## Instalar as dependências do python
 
 ```bash
 $ cd app
 $ ../bin/pip install -r requirements.txt 
 ```
 
-## Criar o banco de dados e o usurio root da aplicação
+## Criar o banco de dados e o usuário root da aplicação
 
 ```bash
 $ ../bin/python ./manage.py migrate
 $ ../bin/python ./manage.py createsuperuser
 ```
 
-## Caregar dados padrão no banco de dados
+## Carregar dados padrões no banco de dados
 
 ```bash
 $ ../bin/python ./manage.py loaddata data_roons.json
