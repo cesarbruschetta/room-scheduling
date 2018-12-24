@@ -1,7 +1,7 @@
 """ Admin Core """
 from django.contrib import admin
 
-from .models import MeetingRoom, Meeting
+from .models import MeetingRoom, Meeting, ActionLog
 
 
 @admin.register(MeetingRoom)
@@ -18,3 +18,17 @@ class MeetingAdmin(admin.ModelAdmin):
 
     list_display = ("name", 'meeting_room', 'start', 'end')
     search_fields = ['name', 'meeting_room__name']
+
+
+@admin.register(ActionLog)
+class ActionLogAdmin(admin.ModelAdmin):
+    """ Admin class to ActionLog """
+
+    list_display = ("content_object", 'action', 'creation_date')
+    
+    def has_change_permission(self, request, obj=None):
+        return False
+        
+    def has_delete_permission(self, request, obj=None):
+        return False
+    
