@@ -1,5 +1,13 @@
 # Coding Test - Reserva de Salas de Reunião
 
+## Documentação Completa
+
+[ReadtheDocs](https://room-scheduling.readthedocs.io/pt/latest/).
+
+## Acesso
+
+Link para a [aplicação Demo](https://room-scheduling.herokuapp.com/)
+
 ## O Problema
 
 Faça a gestão das salas de reuniões do nosso escritório.
