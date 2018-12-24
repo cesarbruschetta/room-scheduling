@@ -1,6 +1,6 @@
 # API para reservar sala de reunião
 
-## End Points Para Gestao de Salas
+## End Points Para Gestão das Salas
 
 * `GET    /api/meeting-room/` - Lista as salas criadas no sistema
 * `GET    /api/meeting-room/?search=termo` - Listar as salas criadas, filtrando pelo "termo"
@@ -8,7 +8,7 @@
 * `PATCH  /api/meeting-room/:id/` - Editar uma sala de reunião existente
 * `DELETE /api/meeting-room/:id/` - Remover uma sala de reunião existente
 
-### Examplos de requisição de criação de sala
+### Exemplos de requisição de criação de sala
 
 ```json
 {
@@ -18,7 +18,7 @@
 }
 ```
 
-## End Points Para Gestao de Reservas
+## End Points Para Gestão de Reservas
 
 * `GET    /api/meeting/` - Lista as reservas criadas no sistema
 * `GET    /api/meeting/?search=termo` - Listar as reservas criadas, filtrando pelo "termo"
@@ -26,7 +26,7 @@
 * `PATCH  /api/meeting/:id/` - Editar uma reserva existente
 * `DELETE /api/meeting/:id/` - Remover uma reserva existente
 
-### Examplos de requisição para criação de uma reserva de sala
+### Exemplos de requisição para criação de uma reserva de sala
 
 ```json
 {
