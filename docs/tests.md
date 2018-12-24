@@ -7,14 +7,14 @@ $ cd /path/to/env/room_scheduling/app
 $ python manage.py test -v 2
 ```
 
-## Analizar o codigo pelo pylint
+## Analisar o código pelo pylint
 
 ```bash
 $ cd /path/to/env/room_scheduling/app
 $ ../bin/pylint room_scheduling/*
 ```
 
-## Analizar o codigo pelo pep8
+## Analisar o código pelo pep8
 
 ```bash
 $ cd /path/to/env/room_scheduling/app
@@ -27,17 +27,17 @@ $ ../bin/flake8 room_scheduling/*
 
 ## Executar o Coverage report
 
-Apos executar todos os teste unitarios execute o comando abaixo
+Após executar todos os testes unitários execute o comando abaixo
 
 ```bash
 $ cd /path/to/env/room_scheduling/app
 $ ../bin/coverage html
 ```
 
-O comando gerara uma pasta chamada `htmlcov` e ao abrila ira localizar e abir o arquivo `index.html` com seu navegado para ver o relatorio
+O comando gerará uma pasta chamada `htmlcov` e ao abri-lá irá localizar e abrir o arquivo `index.html` com seu navegador para ver o relatório
 
 
-## Analize pelo Coverage
+## Analise pelo Coverage
 
 |Module|statements|missing|excluded|coverage|
 |--- |--- |--- |--- |--- |
